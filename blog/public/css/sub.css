@@ -1,0 +1,404 @@
+/* sub_header */
+
+.sub_header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50rem;    
+    position: relative;
+    margin-top: 11rem;
+}
+.sub_header.introduction{
+    background-image: url(/img/sub_banner01.jpg);
+}
+.sub_header.product{
+    background-image: url(/img/sub_banner02.jpg);
+}
+.sub_header.data_room{
+    background-image: url(/img/sub_banner03.jpg);
+}
+.sub_header.customer{
+    background-image: url(/img/sub_banner04.jpg);
+}
+.sub_header.contact_us{
+    background-image: url(/img/sub_banner05.jpg);
+}
+.sub_header h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+.sub_header .sub_menu{
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    background: rgba(73,73,73,.5);
+    border-top: 0.1rem solid #fff;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 2.5rem 0;
+}
+.sub_header .sub_menu span{
+    font-size: 1.6rem;
+    letter-spacing: -0.04em;
+    color: #fff;
+    font-weight: 500;
+}
+.sub_header .sub_menu img{
+    margin: 0 1.5rem;
+}
+.sub_sub_menu{
+    background: #194c5c;
+}
+.sub_sub_menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub_sub_menu ul li{
+    font-size: 1.7rem;
+    letter-spacing: -0.04em;
+    color: #618590;
+    margin: 0 4rem;
+    padding: 3rem 0;
+    text-align: center;
+}
+.sub_sub_menu ul li.on{
+    color: #fff;
+}
+
+/* sub_title */
+
+#sub {
+    padding: 7.5rem 0 19rem;
+}
+#sub .sub_title{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+#sub .sub_title p{
+    font-size: 1.8rem;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#sub .sub_title h4{
+    font-size: 4rem;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+}
+#sub .pro_title{
+    padding-bottom: 3rem;
+    margin-bottom: 6rem;
+    border-bottom: 0.1rem solid #de3525;
+}
+#sub .pro_title h4{
+    font-size: 5rem;
+    letter-spacing: -0.04em;
+    color: #194c5c;
+    margin-bottom: 1rem;
+}
+#sub .pro_title p{
+    font-size: 1.8rem;
+    letter-spacing: -0.04em;
+    color: #194c5c;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+#sub .pro_box h5{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+}
+#sub .pro_box h5 span{
+    font-size: 2.6rem;
+    letter-spacing: -0.04em;
+    color: #979797;
+    margin-left: 1.3rem;
+}
+#sub .pro_box h5 span.no_span{
+    margin-left: 0;
+}
+#sub .pro_box h5 em{
+    color: #de3525;
+    font-style: normal;
+}
+
+#sub .pro_box p{
+    font-size: 1.6rem;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+#sub .pro_img_box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#sub .pro_img_box > div{
+    width: 32%;
+    margin-right: 3rem;
+}
+#sub .pro_img_box > div:nth-child(3n){
+    margin-right: 0;
+}
+
+
+/* greeting */
+
+#sub .greeting{
+    text-align: center;
+}
+#sub .greeting h5{
+    font-size: 3rem;
+    letter-spacing: -0.04em;
+    color: #272727;
+    line-height: 4rem;
+    font-weight: 500;
+}
+#sub .greeting h5 b{
+    font-weight: 900;
+}
+#sub .greeting p{
+    font-size: 1.6rem;
+    letter-spacing: -0.04em;
+    line-height: 2.8rem;
+    font-weight: 500;
+    margin: 3.7rem 0 6.5rem;
+}
+#sub.g_sub{
+    padding-bottom: 0;
+}
+
+/* location */
+
+#sub .location .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub .location .inner > div{
+    width: 49% !important;
+}
+#sub .location .inner > div > div{
+    width: 100% !important;
+    height: 40rem !important;
+}
+#sub .location h5{
+    font-size: 1.6rem;
+    color: #4d4d4d;
+    margin-bottom: 2rem;
+}
+#sub .location h5 span{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 700;
+    padding-left: 1.2rem;
+    padding-right: 0.5rem;
+}
+#sub .location h5 svg{
+    font-size: 2.8rem;
+    color: #194c5c;
+}
+
+/* data_room */
+
+#sub .data_room table{
+    width: 100%;
+}
+#sub .data_room table th{
+    background: #194c5c;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    padding: 1rem 0;
+}
+#sub .data_room table td{
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 2rem 0;
+}
+#sub .data_room table td p{
+    margin-bottom: 0.8rem;
+    padding:0 3rem;
+}
+#sub .data_room table td p:last-child{
+    margin-bottom: 0;
+}
+#sub .data_room table td:last-child{
+    border-right: 0;
+}
+#sub .data_room table .txt_center{
+    text-align: center;
+    font-size: 2rem;
+    color: #194c5c;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+}
+
+/* customer */
+
+#sub .customer .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sub .customer .inner > div{
+    width: 32%;
+    box-shadow: 0px 0px 2rem 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 3rem;
+}
+
+/* contact_us */
+
+#sub .contact_us .swiper-slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38rem;
+}
+#sub .contact_us .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub .contact_us .inner > div{
+    width: 50%;
+}
+#sub .contact_us .s_slide01{
+    background-image: url(/img/sub_slide01.jpg);
+}
+#sub .contact_us .s_slide02{
+    background-image: url(/img/sub_slide01.jpg);
+}
+#sub .swiper-button-next{
+    background-image: url(/img/next_btn.jpg);
+    width: 5rem;
+    height: 4rem;
+    background-size: 5rem 4rem;
+    bottom: 0;
+    top: auto;
+    right: 0;
+}
+#sub .swiper-button-prev{
+    background-image: url(/img/prev_btn.jpg);
+    width: 5rem;
+    height: 4rem;
+    background-size: 5rem 4rem;
+    bottom: 0;
+    right: 5rem;
+    top: auto;
+    left: auto;
+}
+#sub .contact_us .txt_box{
+    padding-left: 10rem;
+}
+#sub .contact_us .txt_box li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+}
+#sub .contact_us .txt_box li p{
+    color: #6f6f6f;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    letter-spacing: -0.04em;
+    font-size: 2rem;
+}
+#sub .contact_us .txt_box li span{
+    color: #194c5c;
+    font-weight: 500;
+    display: inline-block;
+    width: 7rem;
+}
+#sub .contact_us .txt_box li em{
+    padding: 0 2rem;
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 1440px){
+}
+@media screen and (max-width: 1200px){
+    #sub .contact_us .txt_box li img{
+        width: 5%;
+    }
+    #sub .contact_us .txt_box > img{
+        width: 28%;
+    }
+}
+@media screen and (max-width: 950px){
+    #sub .contact_us .txt_box li img {
+        width: 7%;
+    }
+    #sub .contact_us .txt_box > img {
+        width: 31%;
+    }
+}
+@media screen and (max-width: 768px){
+    #sub .location .inner{
+        flex-direction: column;
+    }
+    #sub .location .inner > div {
+        width: 100% !important;
+    }
+    #sub .location .inner > div:first-child{
+        margin-bottom: 3rem;
+    } 
+    #sub .pro_img_box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #sub .pro_img_box > div{
+        width: 70%;
+        margin-bottom: 4rem;
+    }
+    #sub .pro_box h5 img{
+        width: 9%;
+    }
+    #sub .customer .inner > div{
+        width: 49%;
+    }
+    #sub .contact_us .inner{
+        flex-wrap: wrap;
+    }
+    #sub .contact_us .inner > div{
+        width: 100%;
+    }
+    #sub .contact_us .txt_box{
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+    #sub .contact_us .txt_box li:last-child{
+        margin-bottom: 0;
+    }
+    #sub .contact_us .txt_box > img {
+        width: 22%;
+    }
+    #sub .contact_us .txt_box li img {
+        width: 9%;
+    }
+}
+@media screen and (max-width: 499px){
+    .sub_sub_menu ul li{
+        margin: 0;
+    }
+    #header .inner h1 {
+        width: 35%;
+    }
+}

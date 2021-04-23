@@ -1,0 +1,137 @@
+#main .swiper-slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93.5rem;
+}
+#main .slide01{
+    background-image: url(/img/slide01.jpg);
+}
+#main .slide02{
+    background-image: url(/img/slide02.jpg);
+}
+#main .slide03{
+    background-image: url(/img/slide03.jpg);
+}
+#main .slide04{
+    background-image: url(/img/slide04.jpg);
+}
+
+#main .swiper-slide .txt_box{
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 6rem 3.7rem 3rem 10.5rem;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+}
+#main .swiper-slide .txt_box img{
+    position: absolute;
+    left: 0; top: 0;
+}
+#main .swiper-slide .txt_box h2{
+    font-size: 5rem;
+    letter-spacing: -0.03em;
+    font-weight: 900;
+}
+#main .swiper-slide .txt_box p{
+    font-size: 2.4rem;
+    letter-spacing: -0.04em;
+    margin-bottom: 2rem;
+}
+#main .page_box{
+    position: absolute;
+    top: 59.5%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+#main .swiper-button-next{
+    background-image: url(/img/next_arrow_btn.png);
+    width: 1rem;
+    height: 2rem;
+    background-size: 1rem 2rem;
+    top: 0;
+    right: 4rem;
+    left: auto;
+} 
+#main .swiper-button-prev{
+    background-image: url(/img/prev_arrow_btn.png);
+    width: 1rem;
+    height: 2rem;
+    background-size: 1rem 2rem;
+    top: 0;
+    right: 19rem;
+    left: auto;
+}
+#main .swiper-pagination{
+    top: -2rem;
+    right: 7rem;
+}
+#main .swiper-pagination-bullet{
+    margin-left: 1rem;
+    background: #fff;
+    opacity: 1;
+}
+@keyframes fadeW{
+    0%{width: 0.8rem;}
+    100%{width: 1.7rem;}
+}
+#main .swiper-pagination-bullet-active{
+    background: #194c5c;
+    border: 1px solid #fff;
+    width: 1.7rem;
+    border-radius: 0.4rem;
+    animation: fadeW 0.3s forwards ease-out;
+}
+@media screen and (max-width: 1440px){
+    #main .swiper-pagination {
+        top: -2.2rem;
+    }
+}
+@media screen and (max-width: 1200px){
+    #main .swiper-pagination {
+        top: -2.6rem;
+    }
+}
+@media screen and (max-width: 950px){
+    #main .swiper-pagination {
+        top: -3.2rem;
+    }
+}
+@media screen and (max-width: 768px){
+    #main .swiper-slide{
+        height: 132.2rem;
+    }
+    #main .slide01{
+        background-image: url(/img/m_slide01.jpg);
+    }
+    #main .slide02{
+        background-image: url(/img/m_slide02.jpg);
+    }
+    #main .slide03{
+        background-image: url(/img/m_slide03.jpg);
+    }
+    #main .slide04{
+        background-image: url(/img/m_slide04.jpg);
+    }
+    #main .swiper-slide .txt_box img{
+        width: 4rem;
+    }
+    #main .swiper-slide .txt_box{
+        padding: 6rem 3.7rem 3rem 4.5rem;
+    }
+    #main .page_box{
+        top: 56.5%;
+    }
+    #main .swiper-pagination {
+        top: -3.8rem;
+    }
+}
+@media screen and (max-width: 499px){
+    #main .page_box {
+        top: 60%;
+    }
+}
